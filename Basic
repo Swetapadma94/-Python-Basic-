@@ -1,0 +1,56 @@
+## basic
+s= 'sweta/r's laptop'
+
+
+
+
+## multiple Assignmnet##
+a=b=c=1
+a
+a,b,c=1,"john",768
+print(b,c)
+
+#Data Types
+## String
+
+str="Hello python"
+print(str)
+## Acessing value using slicing operator ([],[:])
+str[0]
+str[0:]
+str[1]
+str[1:5]
+str[-1]
+str[-5:-1]
+str*4 ## repetation operator
+str + "world" # concatination operator
+ # List#
+list = ["sweta","sibu",123,567,"Dalai","mummy","bapa",456,877]
+dummy=[123,"sddf"]
+list[4]
+list[0:5]
+list[0:9]
+list[-1]
+list[-8:-1]
+dummy*4
+list+dummy
+dummy[1]=133
+ 
+### Tuples##
+
+tuple=("john",123,"abcd",678,4553,"shiny")
+print(tuple)
+tuple1=("rfvbd",677)
+tuple[3]
+tuple[0:5]
+tuple[-4:-1]
+tuple+tuple1
+tuple1*10
+tuple[2]=100
+
+## Dictionary##
+dict='This is a book'
+print (dict)
+dum = {'name': "john" , 'age': 12 ,'code': 123}
+dum.keys()
+dum.values()
